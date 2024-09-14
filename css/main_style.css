@@ -1,0 +1,45 @@
+body{
+    background:linear-gradient(#D9DAD8,#A9DAF1) ;
+}
+h1{
+    font-size: 96px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+i,h3,h1{
+    color: rgb(21, 48, 202);
+
+}
+.task-icon i:hover{
+    color:black;
+}
+.task{
+    transition: all 0.5s;
+}
+.task:hover{
+    width: 75% !important;
+}
+#btn:hover{
+    background-color: grey;
+    color: #FFF;
+    
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
